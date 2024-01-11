@@ -61,4 +61,9 @@ else:
 
 #3.feladat
 def fajlosfeladat():
+    listaa=[]
     fajlom=open("stadionok.txt")
+    sorok=fajlom.readlines()
+    listaa.append(sorok)
+    listaa.remove(listaa[0])
+    print(len(listaa))
