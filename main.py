@@ -11,3 +11,4 @@ if paros < paratlan:
     print("Páratlan a nagyobb!")
 else:
     print("Páros a nagyobb!")
+feladatok.fajlosfeladat()
